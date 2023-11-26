@@ -412,8 +412,8 @@ Paste
 
 0 6 * * 0 certbot renew -n -q
 ```
-- At 06:00 AM, only on Sunday
-It will run every sunday (non interactively and quietly)
+- At 06:00 AM, only on Sunday.
+- It will run on every sunday (non interactively and quietly)
 
 
 
