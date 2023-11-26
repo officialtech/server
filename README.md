@@ -1,5 +1,6 @@
 # 1. [Django on server](https://github.com/officialtech/server/blob/master/README.md#django-on-server)
 # 2. [Wordpress on server](https://github.com/officialtech/server/blob/master/README.md#wordpress-on-server)
+# 3. [Certbot]()
 
 
 
@@ -337,4 +338,44 @@ E1.A:
 sudo apt install php-mysql
 systemctl restart apache2
 ```
+
+![Certbot](https://certbot.eff.org/assets/certbot-logo-1A-6d3526936bd519275528105555f03904956c040da2be6ee981ef4777389a4cd2.svg)
+# Certbot
+
+1. SSH or Login into the server
+
+2. Install snapd
+```bash
+sudo apt install snapd
+```
+
+3. Remove certbot-auto and any Certbot OS packages
+```bash
+sudo apt remove certbot
+```
+
+4. Install Certbot
+```bash
+sudo snap install --classic certbot
+```
+
+5. Prepare the Certbot command
+```bash
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+
+6. Get and Install your certificates
+```bash
+sudo certbot --apache
+```
+Now read all the instruction and give input accordingly.
+
+7. Test automatic renewal
+```bash
+sudo certbot renew --dry-run
+```
+
+
+
+
 
