@@ -1,5 +1,5 @@
-# 1. Django on server
-# 2. [Wordpress on server](https://github.com/officialtech/server/master/README.md#2-wordpress-on-server)
+# 1. [Django on server](https://github.com/officialtech/server/blob/master/README.md#django-on-server)
+# 2. [Wordpress on server](https://github.com/officialtech/server/blob/master/README.md#wordpress-on-server)
 
 
 
