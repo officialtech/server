@@ -412,6 +412,14 @@ Paste
 
 0 6 * * 0 certbot renew -n -q
 ```
+
+To save:  
+```bash
+ctrl X
+Press y
+Return(Enter)
+```
+
 - At 06:00 AM, only on Sunday.
 - It will run on every sunday (non interactively and quietly)
 
