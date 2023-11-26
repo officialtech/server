@@ -3,7 +3,7 @@
 
 
 
-
+![Django on server image](https://vegibit.com/wp-content/uploads/2021/06/How-To-Run-Django-Development-Server.png)
 # Django on server
 ### Step 1: Update System Packages
 
