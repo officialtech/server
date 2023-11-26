@@ -140,7 +140,7 @@ If you encounter any issues during this setup or have further questions, please 
 
 
 
-
+![Wordpress on server](https://gsvr.com.au/wp-content/uploads/2020/08/WordPress-Server.png)
 
 # Wordpress on server
 
