@@ -9,7 +9,7 @@
 When you run `ps aux` in the terminal, it will display a list of all processes currently running on the system, along with detailed information about each process. This information can be useful for monitoring system activity, troubleshooting performance issues, and managing processes.
 
 
-### Example: Identify the PID of the Gunicorn process running for the other project.
+> Example: Identify the PID of the Gunicorn process running for the other project.
 ```
 ps aux | grep gunicorn
 ```
