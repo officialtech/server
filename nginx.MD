@@ -44,7 +44,7 @@
 ```
 
 
-In most cases, you do not need to create the Unix socket file manually. When you start Gunicorn with the --bind unix:/run/irstsite.sock option, Gunicorn will automatically create the Unix socket file specified in the path if it does not already exist.
+In most cases, you do not need to create the Unix socket file manually. When you start Gunicorn with the `--bind unix:/run/irstsite.sock` option, Gunicorn will automatically create the Unix socket file specified in the path if it does not already exist.
 
 However, there are a few considerations to keep in mind:
 
