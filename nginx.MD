@@ -89,6 +89,11 @@ However, there are a few considerations to keep in mind:
         }
 ```
 
+7. Install Gunicorn
+```
+pip install gunicorn
+```
+
 - sudo systemctl start firstsite.socket
 - sudo systemctl enable firstsite.socket
 - sudo systemctl status firstsite.socket
