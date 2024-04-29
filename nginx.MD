@@ -104,3 +104,12 @@ pip install gunicorn
 - sudo systemctl status secondsite.socket
 - sudo systemctl restart secondsite
 
+
+### Debugging
+```
+##### Nginx logs
+1. tail -f /var/log/nginx/access.log /var/log/nginx/error.log
+
+##### Gunicorn socket’s logs
+1. sudo journalctl -u gunicorn_socket_name.socket
+```
