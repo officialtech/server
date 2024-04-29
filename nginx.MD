@@ -108,8 +108,14 @@ pip install gunicorn
 ### Debugging
 ```
 ##### Nginx logs
-1. tail -f /var/log/nginx/access.log /var/log/nginx/error.log
+- tail -f /var/log/nginx/access.log /var/log/nginx/error.log
 
 ##### Gunicorn socket’s logs
-1. sudo journalctl -u gunicorn_socket_name.socket
+- sudo journalctl -u gunicorn_socket_name.socket
+
+##### Daemon reload
+_Whenever you will change the gunicorn_socket_name.socket or .service configurations, always reload the daemon_
+- sudo systemctl daemon-reload
+
+
 ```
