@@ -117,5 +117,6 @@ pip install gunicorn
 Whenever you will change the gunicorn_socket_name.socket or .service configurations, always reload the daemon
 - sudo systemctl daemon-reload
 
-
+##### Last one
+- sudo nano init 6
 ```
