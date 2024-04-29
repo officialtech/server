@@ -114,7 +114,7 @@ pip install gunicorn
 - sudo journalctl -u gunicorn_socket_name.socket
 
 ##### Daemon reload
-* Whenever you will change the gunicorn_socket_name.socket or .service configurations, always reload the daemon *
+Whenever you will change the gunicorn_socket_name.socket or .service configurations, always reload the daemon
 - sudo systemctl daemon-reload
 
 
