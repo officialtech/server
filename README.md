@@ -343,6 +343,18 @@ systemctl restart apache2
 ![Certbot](https://certbot.eff.org/assets/certbot-logo-1A-6d3526936bd519275528105555f03904956c040da2be6ee981ef4777389a4cd2.svg)
 # Certbot
 
+<pre>
+sudo apt-get update
+sudo apt-get install certbot python3-certbot-nginx
+sudo certbot --nginx -d fourthX.com
+--------------------------------------------------
+    sudo certbot
+    email@address.me
+    A
+    N
+    1
+</pre>
+
 1. SSH or Login into the server
 
 2. Install snapd
