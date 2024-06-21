@@ -353,6 +353,7 @@ sudo certbot --nginx -d fourthX.com
     A
     N
     1
+    sudo certbot renew --dry-run
 </pre>
 
 1. SSH or Login into the server
